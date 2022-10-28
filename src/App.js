@@ -34,6 +34,8 @@ function App() {
       .sort(() => Math.random() - 0.5)
       .map((card) => ({ ...card, id: Math.random() }))
 
+    setChoiceOne(null)
+    setChoiceTwo(null)
     setCards(shuffledCards)
     setTurns(0)
 
@@ -85,10 +87,14 @@ function App() {
   const resetTurn = () => {
     setChoiceOne(null)
     setChoiceTwo(null)
-    // setTurns(prevTurns => prevTurns + 1)
+    setTurns(prevTurns => prevTurns + 1)
     setDisabled(false)
   }
 
+  //start a new game autmoatically
+  useEffect(() => {
+    shuffleCards()
+  }, [])
 
   return (
     <div className="App">
@@ -109,6 +115,7 @@ function App() {
 
         ))}
       </div>
+      <p>Turns: {turns}</p>
     </div>
 
 

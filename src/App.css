@@ -12,11 +12,12 @@ button {
   font-weight: bold;
   cursor: bold;
   font-size: 1em;
+  transition: 0.5s;
 }
 
 button:hover {
-  background-color: #c23866;
-  color: #fff
+  background-color: #319c78;
+  color: #fff;
 }
 
 .card-grid {
