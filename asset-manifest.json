@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/matching-cats/static/css/main.24caefa1.css",
+    "main.js": "/matching-cats/static/js/main.886781ee.js",
+    "static/media/bgc.jpg": "/matching-cats/static/media/bgc.2fb6bd13ef22dbec6ba7.jpg",
+    "index.html": "/matching-cats/index.html",
+    "main.24caefa1.css.map": "/matching-cats/static/css/main.24caefa1.css.map",
+    "main.886781ee.js.map": "/matching-cats/static/js/main.886781ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24caefa1.css",
+    "static/js/main.886781ee.js"
+  ]
+}
