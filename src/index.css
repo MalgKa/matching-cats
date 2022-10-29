@@ -6,6 +6,6 @@ body {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
-  background-color: #23156b;
-  color: #fff;
+  background-image: url('../public/img/bgc.jpg');
+  color: rgb(255, 239, 10);
 }
